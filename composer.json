@@ -1,0 +1,20 @@
+{
+	"name": "webchemistry/dotenv",
+	"type": "library",
+	"license": "MIT",
+	"require": {
+		"php": ">=8.2",
+		"vlucas/phpdotenv": "^5.6"
+	},
+	"autoload": {
+		"psr-4": {
+			"WebChemistry\\Dotenv\\": "src/"
+		}
+	},
+	"scripts": {
+		"phpstan": "phpstan analyse"
+	},
+	"require-dev": {
+		"phpstan/phpstan": "^1.12"
+	}
+}
